@@ -62,6 +62,19 @@ Carthage/Build
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
+# Created by https://www.gitignore.io/api/swiftpackagemanager
+# Edit at https://www.gitignore.io/?templates=swiftpackagemanager
+
+### SwiftPackageManager ###
+Packages
+.build/
+xcuserdata
+DerivedData/
+*.xcodeproj
+
+
+# End of https://www.gitignore.io/api/swiftpackagemanager
+
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
