@@ -2,7 +2,7 @@
 Very small e-mail validation helper written in Swift. It contains regular expresion that is compliant with RFC 2822.
 You can use it via Swift Package Manager or just copy file `SwiftEmailValidator.swift` into your project - done!
 
-# How do I use it in my code?
+## How do I use it in my code?
 Simple as this:
 
 ```swift
