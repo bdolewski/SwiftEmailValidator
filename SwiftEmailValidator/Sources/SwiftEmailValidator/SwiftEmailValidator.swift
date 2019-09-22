@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Namespace EmailValidating
-struct EmailValidator {
+enum EmailValidator {
     
     /// Check if given e-mail adres is correct (compliant to RFC 5322)
     ///

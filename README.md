@@ -9,4 +9,4 @@ Simple as this:
 let result = EmailValidator.isValid(email: "john.appleseed@apple.com")
 ```
 
-There is only 1 static function `isValid(email:)` enclosed in _namespace_ `EmailValidator` (just a struct, really)
+There is only 1 static function `isValid(email:)` enclosed in _namespace_ `EmailValidator` (just a case-less enum to not create any instances of `EmailValidator`)
