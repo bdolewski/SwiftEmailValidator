@@ -1,6 +1,14 @@
-language: swift
-osx_image: xcode11
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: osx
+      osx_image: xcode11
+      sudo: required
 
-xcode_project: SwiftEmailValidator/Package.swift
-xcode_scheme: SwiftEmailValidator 
-xcode_destination: platform=iOS Simulator,OS=13,name=iPhone 11 Pro Max 
+before_install:
+  - git clone https://github.com/IBM-Swift/Package-Builder.git
+
+script:
+  - ./Package-Builder/build-package.sh -projectDir $TRAVIS_BUILD_DIR
