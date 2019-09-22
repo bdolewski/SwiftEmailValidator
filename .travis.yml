@@ -2,7 +2,9 @@ os:
   - osx
 language: swift
 osx_image: xcode11
-install: swift package update
+env:
+  - PROJECT_NAME=SwiftEmailValidator
+install: (cd $PROJECT_NAME && swift package update)
 script:
-  - swift build
-  - swift test
+  - (cd $PROJECT_NAME && swift build)
+  - (cd $PROJECT_NAME && swift test)
