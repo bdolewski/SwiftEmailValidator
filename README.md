@@ -1,5 +1,5 @@
 # SwiftEmailValidator
-Very small e-mail validation helper written in Swift. It contains regular expresion that is compliant with RFC 2822.
+Very small e-mail validation helper written in Swift. It contains regular expresion that is compliant with RFC 5322.
 You can use it via Swift Package Manager or just copy file `SwiftEmailValidator.swift` into your project - done!
 
 ## How do I use it in my code?
